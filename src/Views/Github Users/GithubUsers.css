@@ -1,0 +1,90 @@
+.usersContainer{
+    height: 100vh;
+    padding: 87px 0 0 67px;
+    display: flex;
+    gap: 69px;
+}
+
+
+.searchUsers{
+    background-color: white;
+    width: 274px;
+    height: 90px;
+    padding: 15px 0px 0px 25px;
+    border-radius: 13px;
+    box-shadow: 7px 8px 16px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 8px 16px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 8px 16px -3px rgba(0,0,0,0.75);
+}
+
+.searchUsers input{
+    height: 30px;
+    width: 203px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.searchUsers .searchFields{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.searchFields label{
+    padding-left: 7px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.usersList{
+    width: 700px;
+    height: 572px;
+    box-shadow: 7px 8px 16px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 8px 16px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 8px 16px -3px rgba(0,0,0,0.75);
+    border-radius: 13px;
+    overflow-y: auto;
+}
+
+
+.modal img{
+    width: 320px;
+    height: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.list{
+    background-color: pink;
+    margin: 26px 37px 0 37px;
+    border-radius: 7px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.list img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
